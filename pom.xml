@@ -3,6 +3,12 @@
   <groupId>com.cucumberpom</groupId>
   <artifactId>Cucumber_POM</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+        <repository>
+            <id>expleo-repo</id>
+            <url>https://your-company-nexus.com/repository/maven-releases/</url>
+        </repository>
+    </repositories>
   <dependencies>
         <!-- Selenium -->
         <dependency>
